@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+    <!-- external style -->
+     <link rel="stylesheet" href="formstyle.css">
+    <style>
+        form{
+            background-color: cadetblue;
+            width:100%; 
+            margin: auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .c1{
+            border: 1px solid black;
+            margin:10px auto;
+            padding:10px;
+            width:400px;
+            border-radius: 10px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="div1"> 
+            <div>
+        <h3>Step1: Your details</h3>
+        <div class="c1">
+            <label for="">Name:</label>
+        <input type="Text" 
+        placeholder="First and last name"></div>
+        <div class="c1"><label for="">Email:</label>
+        <input type="email"
+        placeholder="example@domain.com"></div>
+        <div class="c1"><label for="">Password:</label>
+            <input type="password"
+            placeholder="Enter password"></div>
+        <div class="c1"><label for="">Phone:</label>
+        <input type="tel"
+        placeholder="Eg. +4445556669"></div></h3></div>
+    </div>
+    <div>
+        <h3>
+            Step2: Delivery address
+        </h3>
+        <div class="c1">
+            <label for="">Address:</label>
+            <textarea name="" id="" rows=""cols=""30></textarea> 
+        </div>
+        <div class="c1">
+            <label for="">DOB:</label>
+            <input type="date">
+        </div>
+        <div class="c1">
+            <label for="">Country:</label>
+            <input type="text"></div>
+        </div>
+            <h3>
+            Step3: Card details 
+        </h3>
+        <div class="c1">
+            <label for="">Card type:</label><br>
+            <input type="radio" 
+            name="card">VISA
+            <input type="radio"
+            name="card">Amex
+            <input type="radio"
+            name="card">Mastercard
+        </div>
+        <div>
+            <div class="c1">
+                <label for="">Hobbies:</label><br>
+                <input type="checkbox" 
+                name="hobbies">Reading
+                <input type="checkbox"
+                name="hobbies">Content Writer
+                <input type="checkbox"
+                name="hobbies">Swimming
+                </div>
+        <div class="c1">
+            <label for="">Courses:</label>
+            <select name="" id="" multiple size="1">
+                <option value="">HTML</option>
+
+                <option value="1">Python</option>
+                <option value="2">Java</option>
+                <option value="3">C++</option>
+                <option value="3">CSS</option>
+                <option value="3">JS</option>
+            </select>
+        </div>
+        <div class="c2">
+        <button type="submit">Submit</button> 
+        <div>
+        <button type="reset">Clear</button></div>  
+        <div>
+        <button type="ok">OK</button></div>
+        </div>
+    </form>
+</body>
+</html>

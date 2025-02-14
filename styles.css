@@ -1,0 +1,53 @@
+#id2{
+    display:flex;
+    justify-content: space between;
+    align-items: center;
+}
+#id2 i{
+    /*padding: 20px;*/
+   margin:0px 50px 0px 0px;
+    /*margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom:0px;
+    margin-top:0px;*/
+}
+#id2 i:hover{
+    background-color:blue;
+    font-size: 20px;
+}
+hr{
+    opacity:5.5;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color:blue;
+}
+a:active{
+    color:pink;
+}
+img{
+    width:300px;
+    height:300px;
+    /* border:10px ridge white ; */
+    border-style:ridge;
+    border-color:rgb(94, 82, 82);
+    border-width:30px;
+    box-shadow: 5px 5px 4px white;
+    border-radius:30px;
+}
+img:hover{
+    border-radius: 50%;
+    border:5px outset white;
+}
+body{
+    color:white;
+    background-image: url(pier-8091934.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+h1{
+    text-shadow: 5px 5px 6px rgb(93, 93, 67),10px 10px 6px  rgb(106, 171, 220);
+}
